@@ -28,6 +28,6 @@ jobs:
           heroku_email: "alfredasare101@gmail.com"
           appdir: "./"
           healthcheck: "https://shielded-basin-29224.herokuapp.com/"
-          env_file: ".env"
+          env_file: "./.env"
         env:
           HD_CHECK: "true"
